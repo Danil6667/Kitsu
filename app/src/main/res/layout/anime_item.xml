@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:layout_height="190dp">
+
+    <ImageView
+        android:id="@+id/iv_anime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3B2B38"
+        android:padding="3dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="10dp"
+        android:text="name_anime"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+</com.google.android.material.card.MaterialCardView>
